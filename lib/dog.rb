@@ -7,7 +7,7 @@ attr_accessor :name, :save
 def initialize(name)
     @name= name
     @@all << self
-    @save
+    @save= @@all << self
   end
 
 def self.all
