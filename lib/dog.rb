@@ -21,7 +21,7 @@ end
     @@all.each {|k9| puts k9.name} 
   end
   
-  def self.save
+  def save
     @@all << self
     
         
