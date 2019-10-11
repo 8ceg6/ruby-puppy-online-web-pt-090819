@@ -17,8 +17,8 @@ def self.clear_all
   @@all.clear
 end 
  def self.print_all
-    @@all.each do|p| 
-    print p
+    @@all.each do|k9| 
+    puts k9
     end
  end
 end
