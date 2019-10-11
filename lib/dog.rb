@@ -17,7 +17,7 @@ def self.clear_all
   @@all.clear
 end 
  def self.print_all
-    @@all.each {|k9| puts k9} 
+    @@all.each do {|k9| puts k9} 
     
     binding.pry 
  end
