@@ -7,6 +7,7 @@ attr_accessor :name
 def initialize(name)
     @name= name
     @@all << self
+    
   end
 
 def self.all
@@ -18,8 +19,10 @@ def self.clear_all
 end 
  def self.print_all
     @@all.each {|k9| puts k9.name} 
-    
-   
- end
+  end
+  
+  def self.save
+        
+  end
  
 end
