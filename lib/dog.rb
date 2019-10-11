@@ -19,6 +19,6 @@ end
  def self.print_all
     @@all.each {|k9| puts k9} 
     
-    end
+    
  end
 end
